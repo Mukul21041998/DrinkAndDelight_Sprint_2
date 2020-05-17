@@ -1,0 +1,31 @@
+CREATE TABLE ProductStock
+(
+	OrderId int NOT NULL,
+	Name varchar(50),
+	Price_per_unit int,
+	Quantity_unit int,
+	Price int,
+	WarehouseId int NOT NULL,
+	DeliveryDate date,
+	ManufacturingDate date,
+	ExpiryDate date,
+	Quality_check varchar(50),
+	ProcessDate date,
+	PRIMARY KEY (OrderId)
+	
+);
+
+INSERT INTO ProductStock
+VALUES (124,'Wine',950,10,9500,25,'2020-04-22','2020-02-01','2022-02-01','OK','2020-04-30'); 
+
+INSERT INTO ProductStock
+VALUES (120,'Whisky',900,10,9000,26,'2020-04-20','2020-01-01','2022-01-01','OK','2020-04-08'); 
+
+INSERT INTO ProductStock
+VALUES (122,'Rum',1000,10,1000,23,'2020-04-15','2020-02-10','2022-02-10','OK','2020-04-18'); 
+
+INSERT INTO ProductStock
+VALUES (121,'Beer',750,10,7500,24,'2020-04-23','2020-02-03','2022-02-03','OK','2020-04-11'); 
+
+INSERT INTO ProductStock
+VALUES (123,'Vodka',550,10,5500,22,'2020-03-30','2020-02-18','2022-02-18','OK','2020-04-26'); 

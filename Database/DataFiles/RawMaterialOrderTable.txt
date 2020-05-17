@@ -1,0 +1,11 @@
+CREATE TABLE RawMaterialStock
+(
+	OrderId int NOT NULL,
+	Name varchar(50),
+	SupplierId int,
+	Quantity_unit int,
+	Date_ofy
+
+	PRIMARY KEY (OrderId)
+	
+);

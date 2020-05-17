@@ -1,0 +1,30 @@
+CREATE TABLE RawMaterialOrder
+(
+	OrderId int NOT NULL,
+	Name varchar(50),
+	SupplierId int,
+	Quantity_unit int,
+	Date_of_order date,
+	Date_of_delivery date,
+	Price_per_unit int,
+	Total_price int,
+	Delivery_status varchar(50),
+	Warehouse_id int NOT NULL,
+	PRIMARY KEY (OrderId)
+	
+);
+
+INSERT INTO RawMaterialOrder
+VALUES (124,'Wine', 101, 5, '2020-05-01', '2020-05-10', 1000, 5000, 'Delivered', 25); 
+
+INSERT INTO RawMaterialOrder
+VALUES (120,'Whisky', 102, 5, '2020-05-01', '2020-05-10', 950, 4750, 'Delivered', 26); 
+
+INSERT INTO RawMaterialOrder
+VALUES (122,'Rum', 103, 5, '2020-05-01', '2020-05-10', 1100, 5500, 'Delivered', 23); 
+
+INSERT INTO RawMaterialOrder
+VALUES (121,'Beer', 104, 5, '2020-05-01', '2020-05-10', 800, 4000, 'Delivered', 24); 
+
+INSERT INTO RawMaterialOrder
+VALUES (123,'Vodka', 105,  5, '2020-05-01', '2020-05-10', 600, 3000, 'Delivered', 22); 

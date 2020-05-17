@@ -1,0 +1,23 @@
+CREATE TABLE  distributors_tbl
+(
+supplier_id INT NOT NULL AUTO_INCREMENT,
+name VARCHAR(20),
+location VARCHAR(40),
+phone_number INT(15),
+PRIMARY KEY (supplier_id)
+);
+
+INSERT INTO distributors_tbl
+VALUES (200,'Greater Noida Zeta-1','Pankaj',0123456789);
+
+INSERT INTO distributors_tbl
+VALUES (201,'Delhi pahad ganj','Deepak',1234567890);
+ 
+INSERT INTO distributors_tbl
+VALUES (202,'Delhi Badarpur','Amit',1234509876);
+ 
+INSERT INTO distributors_tbl
+VALUES (203,'Greater Noida Alpha-1','Mohit',0987612345);
+ 
+INSERT INTO distributors_tbl
+VALUES (204,'Noida Sector-35','Suraj',1256349078);

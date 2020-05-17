@@ -1,0 +1,22 @@
+CREATE TABLE SupplierId_tbl(
+    SupplierID int,
+    SupplierName varchar(255),
+    SupplierAddress varchar(255),
+    SupplierPhoneNo int,
+	PRIMARY KEY (SupplierID)
+);
+
+INSERT INTO SupplierId_tbl
+VALUES (100,'Mohan','Greater Noida Beta-1',0123456789);
+
+INSERT INTO SupplierId_tbl
+VALUES (101,'Shayam','Noida sector-2',1234567890);
+ 
+INSERT INTO SupplierId_tbl
+VALUES (102,'Raju','Delhi anand vihar',1234509876);
+ 
+INSERT INTO SupplierId_tbl
+VALUES (103,'Rahul','Greater Noida beta-1',0987612345);
+ 
+INSERT INTO SupplierId_tbl
+VALUES (104,'Prakash','Greater Noida beta-2',1256349078);
